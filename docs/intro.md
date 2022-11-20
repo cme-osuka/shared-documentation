@@ -1,47 +1,22 @@
----
-sidebar_position: 1
----
 
-# Tutorial Intro
+# Hur funkar dokumentationen?
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Are you ready to create the documentation site for your open source project?
 
-## Getting Started
+## Docs
 
-Get started by **creating a new site**.
+Jag har skapat ett par exempel-filer i `/docs`, för att demonstrera hur strukturen ser ut.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Och allt du behöver göra är att skapa en `<namn>.md`-fil och börja skriva dokumentation i Markdown.
+Konfiguration och dyl. hittar du på docusaurus dokumentation! :)
 
-### What you'll need
+## Hur lägger jag till den i repot då?
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Du behöver först forka repot från `cme-osuka`, klona hem din forkade version av det - och lägga till ändringarna där. Sedan pushar du upp det i ditt repo.
 
-## Generate a new site
+Därefter kan du följa Githubs guide på hur du [skapar en **Pull Request** från en fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
 
-Generate a new Docusaurus site using the **classic template**.
+När du gjort det och det ligger en Pull request på `cme-osuka/shared-documentation` - så kan jag (eller någon som känner för att ansvara för det) kolla igenom den och sedan merga in den i repot :)
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+## Läs mer på Docusaurus
+Länk till deras dokumentation: [https://docusaurus.io/docs](https://docusaurus.io/docs)
